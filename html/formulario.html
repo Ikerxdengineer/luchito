@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="../favicon/pelota1.png">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <form action="">
+        <h1>Formulario para eliminar a luchito gaimer</h1>
+    <div class="Formulario">
+        <div class="Nombre"> 
+            <label for="Nombre">Ingresar Nombre completo:</label>
+            <input type="text"
+            name="Nombre"
+            id="Nombre"
+            placeholder="Nombre completo"
+            required>
+    </div>
+    <br>
+    <div class="email">
+        <label for="email">Ingresar correo electronico:</label>
+        <input type="email"
+        name="email"
+        id="email"
+        placeholder="Ingresar correo electronico"
+        required>
+    </div>
+    <br>
+    <div class="Fecha">
+    <label for="Fecha">Ingresar fecha de nacimiento</label>
+    <input type="date"
+    id="fecha"
+    name="fecha"
+    required>
+    </div>
+    <br>
+    <div class="genero">
+    <label for="genero">Genero xd:</label>
+    <br><br>
+    <label for="Hombre">Hombre:</label>
+    <input type="radio"
+    id="Hombre"
+    name="genero"
+    value="Hombre">
+    <br><br>
+    <label for="Mujer">Mujer:</label>
+    <input type="radio"
+    id="Mujer"
+    name="genero"
+    value="Mujer">
+    </div>
+    <br>
+    <div class="documento">
+        <label for="documento">Ingresar documento (opcional)</label>
+        <input type="file"
+        id="documento"
+        name="documento">
+    </div>
+    <br><br>
+    <div class="comentario">
+        <label for="comentario">Ingresar comentario</label>
+        <br>
+        <textarea name="comentario" id="comentario" required placeholder="Ingresar comentario" rows="10" cols="50"></textarea>
+    </div>
+
+    <input type="submit" value="Enviar">
+    <input type="button" value="Cancelar">
+    <br>
+    <a href="tablas.html">Link para tablas</a>
+    <br>
+    <a href="../index.html">link para el logo</a>
+    </form>
+</body>
+</html>
